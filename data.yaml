@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['No gun_metal detector', 'No gun_phone', 'No gun_thermal gun', 'gun', 'knife', 'robbery activity']
+
+roboflow:
+  workspace: armed-robbery-aixzv
+  project: armed-robbery
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/armed-robbery-aixzv/armed-robbery/dataset/2
